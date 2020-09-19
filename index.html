@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Router para SPA con JS</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header--logo">
+            <p tabindex="0" class="header__p">Burgerlu</p>
+            <img class="header__img" src="img/burger4.png" alt="burguer-logo">
+        </div>
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="img/young.png" alt="User">
+                <p>Perfil</p>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Contacto</a></li>
+                <li><a href="/">Nosotros</a></li>
+                <li><a href="/">Cerrar sesión</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ---main--- -->
+    <section class="main">
+        <h2 tabindex="0" class="main__title">¿Qué Burguerlu deseas hoy?</h2>
+        <input class="input" type="text" placeholder="Buscar...">
+    </section>
+
+<!-- -------------------Carrusel-------------------- -->
+<div class="carousel__container">
+    <div class="carousel-item">
+        <!-- <img src="img/mas.svg" alt=""class="btn-agregar"> -->
+        <img class="carousel-item__img" src="https://images.pexels.com/photos/2702674/pexels-photo-2702674.jpeg?cs=srgb&dl=almuerzo-aperitivo-bollo-carne-2702674.jpg&fm=jpg" alt="Imagenes">
+        <!-- Todo los detalles del item -->
+        <div class="carousel-item__details">
+            <p class="carousel-item__details--title">Burguerlu simple</p>
+            <!-- <p class="carousel-item__details--subtitle">2019 16+ 114min</p> -->
+            <div class="carousel__agree">
+                <img src="img/masa.svg"/>
+                <button>3</button>
+                <img src="img/menos.png" alt="disminuir">
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img class="carousel-item__img" src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?cs=srgb&dl=almuerzo-aperitivo-bollos-carne-1633578.jpg&fm=jpg" alt="Imagenes">
+        <!-- Todo los detalles del item -->
+        <div class="carousel-item__details">
+            <p class="carousel-item__details--title">Burguerlu doble</p>
+        <!-- <p class="carousel-item__details--subtitle">2019 16+ 114min</p> -->
+            <div class="carousel__agree">
+                <img src="img/masa.svg"/>
+                <button></button>
+                <img src="img/menos.png" alt="disminuir">
+            </div>
+        </div>
+    </div>   
+    <div class="carousel-item">
+        <img class="carousel-item__img" src="https://images.pexels.com/photos/2983104/pexels-photo-2983104.jpeg?cs=srgb&dl=almuerzo-aperitivo-beber-bebida-2983104.jpg&fm=jpg" alt="Imagenes">
+        <!-- Todo los detalles del item -->
+        <div class="carousel-item__details">
+            <p class="carousel-item__details--title">Burguerlu doble</p>
+        <!-- <p class="carousel-item__details--subtitle">2019 16+ 114min</p> -->
+            <div>
+                <img src="img/masa.svg"/>
+                <img src="img/menos.png" alt="disminuir">
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img class="carousel-item__img" src="https://images.pexels.com/photos/580612/pexels-photo-580612.jpeg?cs=srgb&dl=carne-comida-comida-rapida-delicioso-580612.jpg&fm=jpg" alt="Imagenes">
+        <!-- Todo los detalles del item -->
+        <div class="carousel-item__details">
+            <p class="carousel-item__details--title">Burguerlu doble</p>
+        <!-- <p class="carousel-item__details--subtitle">2019 16+ 114min</p> -->
+            <div>
+                <img src="img/masa.svg"/>
+                <img src="img/menos.png" alt="disminuir">
+            </div>
+        </div>
+    </div>      
+</div>
+<footer class="footer">
+    <a href="/">Términos de uso</a>
+    <a href="/">Declaración de privacidad</a>
+    <a href="/">Centro de ayuda</a>
+</footer>
+</body>
+</html>
