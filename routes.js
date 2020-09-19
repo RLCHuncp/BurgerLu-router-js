@@ -1,14 +1,14 @@
 const routes = [
     {
         path: '/',
-        template: <h1>Hola</h1>
+        template: ''
     },
     {
         path: '/contacto',
-        template: <h1>Contacto</h1>
+        template: '<h1>Contacto</h1>'
     },
     {
         path: '/nosotros',
-        template: <h1>Nosotros</h1>
+        template: '<h1>Nosotros</h1>'
     }
 ];
