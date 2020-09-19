@@ -21,14 +21,15 @@
                 <p>Perfil</p>
             </div>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Contacto</a></li>
-                <li><a href="/">Nosotros</a></li>
+                <li><button onclick="router.loadRoute('')">Home</button></li>
+                <li><button onclick="router.loadRoute('contacto')">Contacto</button></li>
+                <li><button onclick="router.loadRoute('nosotros')">Nosotros</button></li>
                 <li><a href="/">Cerrar sesión</a></li>
             </ul>
         </div>
     </header>
-
+    <div data-router>
+    </div>
     <!-- ---main--- -->
     <section class="main">
         <h2 tabindex="0" class="main__title">¿Qué Burguerlu deseas hoy?</h2>
@@ -94,5 +95,8 @@
     <a href="/">Declaración de privacidad</a>
     <a href="/">Centro de ayuda</a>
 </footer>
+<script src="./router.js"></script>
+<script src="./routes.js"></script>
+<script src="./index.js"></script>
 </body>
 </html>
